@@ -1,5 +1,61 @@
 .post-container {
     display: flex;
+    flex-direction: column;
+    border: solid lightgray 1px;
+    border-radius: 2px;
+    margin: 2vw auto;
+    width: 60vw;
+    height: 100%;
+}
+
+.post-header {
+    display: flex;
     flex-direction: row;
-    background-color: hotpink;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.post-header h1 {
+    font-size: 1rem;
+}
+
+.post-img img {
+    justify-content: center;
+    width: 60vw;
+    height: auto;
+    margin: auto;
+}
+
+.post-social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+* {
+    border: solid 1px hotpink;
+}
+
+.far {
+    padding: 10px;
+}
+
+.post-interactions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.post-interactions p {
+    padding-left: 10px;
 }
